@@ -161,6 +161,8 @@ namespace Practice
             //string po = PostOffice(10,10);
             //Console.WriteLine(po);
 
+            //Football();
+
         }
         public void Intermediary(string inte)
         {
@@ -169,6 +171,11 @@ namespace Practice
         public string PostOffice(int area, int price)
         {
             return "张三想买这套房，愿意出价" + (area * price - 1) + "元";
+        }
+
+        public void Football()
+        {
+            Console.WriteLine("梅西会打篮球");
         }
     }
 }
