@@ -163,7 +163,10 @@ namespace Practice
 
             //Football();
 
+            
+
         }
+        /*
         public void Intermediary(string inte)
         {
             Console.WriteLine(inte);
@@ -175,7 +178,34 @@ namespace Practice
 
         public void Football()
         {
-            Console.WriteLine("梅西会打篮球");
+            Console.WriteLine("梅西不会踢球");
+        }
+        */
+
+
+        //*****************************************封装函数*********************************************************
+        //老公卖瓜案例
+        public double buy(double price,double number,double discount)
+        {
+            double total;          //设置总价的变量
+            //计算总价钱
+            total = number * price;
+            //计算整十的数
+            int n = (int)(total / 10);
+
+            //计算整十打折后的得数
+            //给打折后的整十设置变量
+            double zhe = 0;
+            //计算整十打折后的得数
+            for (int i = 0; i < n; i++)
+            {
+                zhe = zhe + 10 * discount;
+            }
+            //取余
+            double y = total % 10;
+            //整十打折后的得数加余数
+            total = zhe + y;
+            return total;
         }
     }
 }
