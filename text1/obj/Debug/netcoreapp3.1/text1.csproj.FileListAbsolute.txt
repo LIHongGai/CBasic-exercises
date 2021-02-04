@@ -1,0 +1,15 @@
+C:\C基础练习\CBasic-exercises\text1\bin\Debug\netcoreapp3.1\text1.exe
+C:\C基础练习\CBasic-exercises\text1\bin\Debug\netcoreapp3.1\text1.deps.json
+C:\C基础练习\CBasic-exercises\text1\bin\Debug\netcoreapp3.1\text1.runtimeconfig.json
+C:\C基础练习\CBasic-exercises\text1\bin\Debug\netcoreapp3.1\text1.runtimeconfig.dev.json
+C:\C基础练习\CBasic-exercises\text1\bin\Debug\netcoreapp3.1\text1.dll
+C:\C基础练习\CBasic-exercises\text1\bin\Debug\netcoreapp3.1\text1.pdb
+C:\C基础练习\CBasic-exercises\text1\obj\Debug\netcoreapp3.1\text1.csprojAssemblyReference.cache
+C:\C基础练习\CBasic-exercises\text1\obj\Debug\netcoreapp3.1\text1.Form1.resources
+C:\C基础练习\CBasic-exercises\text1\obj\Debug\netcoreapp3.1\text1.csproj.GenerateResource.cache
+C:\C基础练习\CBasic-exercises\text1\obj\Debug\netcoreapp3.1\text1.AssemblyInfoInputs.cache
+C:\C基础练习\CBasic-exercises\text1\obj\Debug\netcoreapp3.1\text1.AssemblyInfo.cs
+C:\C基础练习\CBasic-exercises\text1\obj\Debug\netcoreapp3.1\text1.csproj.CoreCompileInputs.cache
+C:\C基础练习\CBasic-exercises\text1\obj\Debug\netcoreapp3.1\text1.dll
+C:\C基础练习\CBasic-exercises\text1\obj\Debug\netcoreapp3.1\text1.pdb
+C:\C基础练习\CBasic-exercises\text1\obj\Debug\netcoreapp3.1\text1.genruntimeconfig.cache
