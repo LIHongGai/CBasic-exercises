@@ -163,10 +163,10 @@ namespace Practice
 
             //Football();
 
-            
+            /*
 
         }
-        /*
+        
         public void Intermediary(string inte)
         {
             Console.WriteLine(inte);
@@ -183,29 +183,104 @@ namespace Practice
         */
 
 
-        //*****************************************封装函数*********************************************************
-        //老公卖瓜案例
-        public double buy(double price,double number,double discount)
-        {
-            double total;          //设置总价的变量
-            //计算总价钱
-            total = number * price;
-            //计算整十的数
-            int n = (int)(total / 10);
+            //*****************************************封装函数*********************************************************
+            //老公卖瓜案例
+            /* public double buy(double price,double number,double discount)
+             {
+                 double total;          //设置总价的变量
+                 //计算总价钱
+                 total = number * price;
+                 //计算整十的数
+                 int n = (int)(total / 10);
 
-            //计算整十打折后的得数
-            //给打折后的整十设置变量
-            double zhe = 0;
-            //计算整十打折后的得数
-            for (int i = 0; i < n; i++)
+                 //计算整十打折后的得数
+                 //给打折后的整十设置变量
+                 double zhe = 0;
+                 //计算整十打折后的得数
+                 for (int i = 0; i < n; i++)
+                 {
+                     zhe = zhe + 10 * discount;
+                 }
+                 //取余
+                 double y = total % 10;
+                 //整十打折后的得数加余数
+                 total = zhe + y;
+                 return total;
+             }*/
+            //截取字符串
+            //******************  if语句  ************************************
+
+            /*
+            Console.WriteLine("请输入一个数值，判断它是否为偶数还是奇数");
+            int sum = Convert.ToInt32(Console.ReadLine());
+            if(sum%2==0)
             {
-                zhe = zhe + 10 * discount;
+                Console.WriteLine("{0}是偶数。",sum);
             }
-            //取余
-            double y = total % 10;
-            //整十打折后的得数加余数
-            total = zhe + y;
-            return total;
+            else
+            {
+                Console.WriteLine("{0}是奇数。", sum);
+            }
+            Console.ReadLine();
+            */
+
+            /*
+            Console.WriteLine("请输入一个手机的牌子，判断它是哪个公司的");
+            string  sum = Convert.ToString(Console.ReadLine());
+            if (sum =="ios"||sum== "苹果"||sum=="ipad")
+            {
+                Console.WriteLine("这是苹果公司的手机");
+            }
+            else if(sum=="小米"||sum=="mi")
+            {
+                Console.WriteLine("这是小米公司的手机");
+            }
+            else if(sum=="华为"||sum=="HUAWEI"||sum=="honor")
+            {
+                Console.WriteLine("这是华为公司的手机");
+            }
+            else
+            {
+                Console.WriteLine("这是杂牌机");
+            }
+            Console.ReadLine();
+            */
+
+
+            //*********************  switch 语句 ***********************************************8
+
+            /*
+            Console.WriteLine("请输入一个手机的牌子，判断它是哪个公司的");
+            string sum = Convert.ToString(Console.ReadLine());
+            switch(sum)
+            {
+                case "ios":
+                    Console.WriteLine("这是苹果公司的手机");
+                    break;
+                case "华为":
+                    Console.WriteLine("这是华为公司的手机");
+                    break;
+                case "小米":
+                    Console.WriteLine("这是小米公司的手机");
+                    break;
+                default:
+                    Console.WriteLine("这是杂牌机");
+                    break;
+            }
+            Console.ReadLine();
+            */
+
+            //*********************  while 语句 ***********************************************8
+
+            int i = 1;
+            int sum = 0;
+            while(i<=100)
+            {
+                sum = sum + i ;
+                i++;
+            }
+            Console.WriteLine("1累计加到100的值为{0}", sum);
+            Console.ReadLine();
         }
     }
 }

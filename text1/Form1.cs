@@ -19,7 +19,7 @@ namespace text1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            double total = buy(1.9, 6, 0.75);
+            double total = buy(1.9, 16, 0.75);
             MessageBox.Show(total.ToString());
         }
         //*****************************封装函数******************************
