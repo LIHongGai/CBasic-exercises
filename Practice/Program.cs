@@ -272,6 +272,7 @@ namespace Practice
 
             //*********************  while 语句 ***********************************************8
 
+            /*
             int i = 1;
             int sum = 0;
             while(i<=100)
@@ -281,6 +282,53 @@ namespace Practice
             }
             Console.WriteLine("1累计加到100的值为{0}", sum);
             Console.ReadLine();
+            */
+
+            //*********************  for循环 语句 ***********************************************8
+
+            /*
+            int i ;
+            int sum = 0;
+           for(i=1;i <=100;i++)
+            {
+                sum = sum+i;
+                //sum+=i;
+            }
+            Console.WriteLine("1累计加到100的值为{0}", sum);
+            Console.ReadLine();
+            */
+
+
+            /*
+            //计算100以内偶数的和
+            int i;
+            int sum = 0;
+            for (i = 1; i <= 100; i++)
+            {
+                if(i%2==1)
+                {
+                    continue;  //过滤掉奇数，跳出语句，执行下一次循环
+                }
+                sum = sum + i;
+                
+            }
+            Console.WriteLine("1累计加到100内偶数和的值为{0}", sum);
+            Console.ReadLine();
+            */
+
+            //*********************  goto 语句 ***********************************************8
+
+            int i = 0, sum = 0;
+        label:
+            i++;
+            sum += i;
+            if(i<100)
+            {
+                goto label;
+            }
+            Console.WriteLine(sum);
+            Console.ReadLine();
+
         }
     }
 }
